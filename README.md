@@ -26,3 +26,7 @@ VeReMi dataset: Download link -> https://github.com/josephkamel/VeReMi-Dataset
 Sensor dataset: Sensor dataset is provided in this repository named "Labeled_dataset_CPSS.csv"
 
 
+**To run experiments**
+1. First, run all the models uploaded in the XAI_Frequency_Analysis repository with all the features and then also run DALEX_six_models. Then, reduce the features one by one and run the models. Store the results on the go. In this way, you can know how many times do the main features come first (the feature with most contribution)  
+
+
