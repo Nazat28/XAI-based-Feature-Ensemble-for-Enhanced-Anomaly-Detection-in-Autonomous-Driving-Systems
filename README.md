@@ -27,6 +27,23 @@ Sensor dataset: Sensor dataset is provided in this repository named "Labeled_dat
 
 
 **To run experiments**
-1. First, run all the models uploaded in the XAI_Frequency_Analysis repository with all the features and then also run DALEX_six_models. Then, reduce the features one by one and run the models. Store the results on the go. In this way, you can know how many times do the main features come first (the feature with most contribution)  
+First, run all the six models (DT, RF, DNN, KNN, SVM, AdaBoost) uploaded in the XAI_Frequency_Analysis repository with all the features and then also run DALEX_six_models. Then, reduce the features used for the AI models one by one and run the models. Store the results on the go. In this way, you can know how many times do the main features come first (the feature with most contribution) and do the frequency analysis using the following algortihm:
+
+Calculate the final importance of each feature using a
+weighted scoring system:
+-- A feature receives 3 points for each first-place
+ranking.
+-- It receives 2 points for each second-place ranking.
+-- It receives 1 point for each third-place ranking.
+-- The formula used for final feature importance is:
+Final Feature Importance Score = A × 3 + B × 2 +
+C × 1, where:
+∗ A = number of times the feature ranked first.
+∗ B = number of times the feature ranked second.
+∗ C = number of times the feature ranked third.
+
+
+Use the final ranked list of features as input for independent classifiers (here, CatBoost, LR, and LGBM) to evaluate the effectiveness of the feature ensemble method in improving anomaly detection.
+
 
 
