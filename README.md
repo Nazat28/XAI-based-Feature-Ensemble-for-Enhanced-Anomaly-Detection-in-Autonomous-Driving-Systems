@@ -38,8 +38,11 @@ ranking.
 -- The formula used for final feature importance is:
 Final Feature Importance Score = A × 3 + B × 2 +
 C × 1, where:
+
 ∗ A = number of times the feature ranked first.
+
 ∗ B = number of times the feature ranked second.
+
 ∗ C = number of times the feature ranked third.
 
 
