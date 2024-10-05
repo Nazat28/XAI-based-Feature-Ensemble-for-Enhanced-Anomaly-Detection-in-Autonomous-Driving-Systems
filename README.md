@@ -27,6 +27,7 @@ Sensor dataset: Sensor dataset is provided in this repository named "Labeled_dat
 
 
 **To run experiments**
+
 First, run all the six models (DT, RF, DNN, KNN, SVM, AdaBoost) uploaded in the XAI_Frequency_Analysis repository with all the features and then also run DALEX_six_models. Then, reduce the features used for the AI models one by one and run the models. Store the results on the go. In this way, you can know how many times do the main features come first (the feature with most contribution) and do the frequency analysis using the following algortihm:
 
 Calculate the final importance of each feature using a
