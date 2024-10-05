@@ -15,7 +15,7 @@ Our feature ensemble technique demonstrates improved accuracy, robustness, and t
 models, contributing to safer and more trustworthy autonomous driving systems
 
 
-#Framework
+**Overview of the Framework at a Glance**
 
 ![Fusion_pls](https://github.com/user-attachments/assets/a17ff5c0-bb04-4040-a836-f6c70dd3f5d7)
 
