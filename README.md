@@ -13,3 +13,10 @@ classifiers (CatBoost, Logistic Regression, and LightGBM) to ensure unbiased per
 our feature ensemble approach on two popular autonomous driving datasets (VeReMi and Sensor) datasets.
 Our feature ensemble technique demonstrates improved accuracy, robustness, and transparency of AI
 models, contributing to safer and more trustworthy autonomous driving systems
+
+
+#Framework
+
+![Fusion_pls](https://github.com/user-attachments/assets/a17ff5c0-bb04-4040-a836-f6c70dd3f5d7)
+
+
